@@ -1,2 +1,3 @@
-export { default as GlobalStyle } from './globalStyle';
-export { default as Quotes } from './quotes/Quotes';
+export { default as GlobalStyle } from './globalStyle/GlobalStyle';
+export * from './quotes/Quotes';
+export * from './button/Button';
