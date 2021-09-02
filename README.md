@@ -2,6 +2,8 @@
 
 Project developed for Localiza Labs Bootcamp (Digital Innovation One).
 
+<p><img src="https://github.com/andrekubotsu/simple-quotes-client/blob/main/screen.png" width="500"></p>
+
 **It was great to**
 - practice TDD!
 - tests, tests, tests
