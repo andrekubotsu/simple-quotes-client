@@ -4,8 +4,8 @@ import { getQuote } from './quotesService';
 
 const response = { test: 'testing'};
 const server = setupServer(
-    rest.get(process.env.REACT_APP_API, (req, res, context)=>{
-        return res(context.json(response));
+    rest.get(process.env.REACT_APP_API, (req, res, ctx)=>{
+        return res(ctx.json(response));
     })
 );
 
