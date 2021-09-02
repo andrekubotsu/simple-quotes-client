@@ -10,5 +10,10 @@ export const Button = styled.button`
     font-family: 'New Tegomin', serif;
     cursor: pointer;
     box-shadow: #333 3px 3px;
+    transition: 200ms;
+
+    &:hover{
+        background: #a40000;
+    }
 `;
 
